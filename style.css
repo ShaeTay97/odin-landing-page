@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.head{
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.top-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.link-list{
+    display: flex;
+    list-style: none;
+}
+
+.head-link{
+    text-decoration: none;
+}
