@@ -23,3 +23,12 @@
 .head-link{
     text-decoration: none;
 }
+
+.head-img-box{
+    width: 50%;
+    height: 50vh;
+}
+.head-img{
+    object-fit: cover;
+    width: 100%;
+}
