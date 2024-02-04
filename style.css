@@ -32,3 +32,30 @@
     object-fit: cover;
     width: 100%;
 }
+
+.sect-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-title{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-container{
+    display: flex;
+}
+
+.card{
+    width: 30%
+}
+
+.img-box{
+    width: 90%;
+}
+
+.card-img{
+    width: 100%;
+    object-fit: contain;
+}
