@@ -6,14 +6,19 @@
 .head{
     background-color: #1F2937;
     color: #f9faf8;
+    padding-bottom: 20%;
 }
 
 .top-head{
     display: flex;
     justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-
+.head-logo{
+    font-size: 24px;
+}
 
 .link-list{
     display: flex;
@@ -22,15 +27,39 @@
 
 .head-link{
     text-decoration: none;
+    color: #f9faf8;
+}
+
+.head-bttm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.head-text h1{
+    font-size: 48px;
+}
+
+.head-text p{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .head-img-box{
-    width: 50%;
-    height: 50vh;
+    width: 400px;
+    height: 125px;
 }
 .head-img{
     object-fit: cover;
     width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
 }
 
 .sect-1{
@@ -48,7 +77,8 @@
 }
 
 .card{
-    width: 30%
+    width: 150px;
+    height: 150px;
 }
 
 .img-box{
